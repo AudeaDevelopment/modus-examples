@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Title",
+  "version": "0.1",
+  "description": "Title's chrome extension.",
+  "browser_action": {
+    "default_icon": {
+      "32": "./icons/off.png"
+    },
+    "default_popup": "content/popup.html"
+  },
+  "icons": {
+    "32": "./icons/on.png"
+  },
+  "background": {
+    "page": "background/background.html",
+    "persistent": false
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "webNavigation",
+    "identity",
+    "storage",
+    "management"
+  ],
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com https://www.gstatic.com/ https://www.googleapis.com; object-src 'self'",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "run_at": "document_end",
+      "js": ["content/main.js"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+import React from 'react';
+import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import '@babel/polyfill';
+
+import App from './src/App';
+
+render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('root'),
+);

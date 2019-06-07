@@ -1,0 +1,355 @@
+#container {
+  position: relative;
+  width: 248px;
+  height: 464px;
+  background: #ffffff;
+}
+
+/* Rectangle */
+
+#rec1 {
+  position: absolute;
+  left: 39.33%;
+  right: 56.63%;
+  top: 35.88%;
+  bottom: 53.68%;
+  background: linear-gradient(0deg, #0f71d9, #0f71d9), #0f71d9;
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+
+/* Rectangle */
+#rec2 {
+  position: absolute;
+  left: 75.64%;
+  right: 21.4%;
+  top: 67.62%;
+  bottom: -2.45%;
+  background: linear-gradient(0deg, #0f71d9, #0f71d9), #0f71d9;
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec3 {
+  position: absolute;
+  left: 78.17%;
+  right: 17.13%;
+  top: 0%;
+  bottom: 66.05%;
+  background: rgba(15, 113, 217, 0.87);
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec4 {
+  position: absolute;
+  left: 68.34%;
+  right: 28%;
+  top: 54.28%;
+  bottom: 25.59%;
+  background: rgba(15, 113, 217, 0.4);
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec5 {
+  position: absolute;
+  left: 55.42%;
+  right: 42.41%;
+  top: 47.84%;
+  bottom: 19.11%;
+  background: rgba(15, 113, 217, 0.25);
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec6 {
+  position: absolute;
+  left: 29.69%;
+  right: 63.7%;
+  top: 55.35%;
+  bottom: 19.33%;
+
+  background: linear-gradient(0deg, #095bb3, #095bb3), #0f71d9;
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec7 {
+  position: absolute;
+  left: 33.06%;
+  right: 53.26%;
+  top: 74.98%;
+  bottom: -0.3%;
+
+  background: #0f71d9;
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Rectangle */
+#rec8 {
+  position: absolute;
+  left: 26.6%;
+  right: 66.79%;
+  top: 20.09%;
+  bottom: 54.6%;
+
+  background: linear-gradient(0deg, #0a509a, #0a509a), #0f71d9;
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* Group */
+#group {
+  position: absolute;
+  left: 35.11%;
+  right: 40.46%;
+  top: 30.82%;
+  bottom: 58.14%;
+}
+/* Rectangle */
+#rec9 {
+  position: absolute;
+  left: 90.8%;
+  right: -2.03%;
+  top: 10.58%;
+  bottom: 59.68%;
+
+  background: rgba(15, 113, 217, 0.56);
+  border-radius: 30px;
+  transform: rotate(35deg);
+}
+/* We are hard at work creating new features for you. Stay tuned. */
+#text-field {
+  position: absolute;
+  left: 19.1%;
+  right: 23.88%;
+  top: 46.15%;
+  bottom: 48.02%;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: 0.317647px;
+
+  color: #000000;
+}
+
+#code-container {
+  position: absolute;
+  left: 45.22%;
+  right: 50.21%;
+  top: 35.97%;
+  bottom: 61.48%;
+
+  transform: rotate(-20.21deg);
+}
+
+#code-container-inner {
+  position: absolute;
+  left: 21.63%;
+  right: 0.24%;
+  top: 56.04%;
+  bottom: -1.41%;
+
+  background: #000000;
+  transform: rotate(-20.21deg);
+}
+
+#code-left {
+  position: absolute;
+  left: 23.3%;
+  right: 54.83%;
+  top: 60.47%;
+  bottom: 5.94%;
+
+  background: #000000;
+  transform: rotate(-20.21deg);
+}
+#code-right {
+  position: absolute;
+  left: 96.61%;
+  right: -18.49%;
+  top: 34%;
+  bottom: 32.41%;
+
+  background: #000000;
+  transform: matrix(-0.94, 0.35, 0.35, 0.94, 0, 0);
+}
+#code-slash {
+  position: absolute;
+  left: 45.91%;
+  right: 32.21%;
+  top: 49.73%;
+  bottom: 6.53%;
+  background: #000000;
+  transform: matrix(0.89, -0.46, 0.45, 0.89, 0, 0);
+}
+
+#oval {
+  position: absolute;
+  left: 46.34%;
+  right: 51.69%;
+  top: 38.48%;
+  bottom: 60.44%;
+  background: #0f71d9;
+}
+
+#rec12 {
+  position: absolute;
+  left: 35.11%;
+  right: 40.46%;
+  top: 38.02%;
+  bottom: 59.68%;
+  background: #d6d6d6;
+  border-radius: 0px 0px 6px 6px;
+}
+
+#logo-container {
+  position: absolute;
+  left: 54.49%;
+  right: 42.14%;
+  top: 32.05%;
+  bottom: 65.96%;
+  border: 1px solid red;
+  /* background: url(BlackonTransparent.png); */
+}
+
+#coming-soon {
+  position: absolute;
+  left: 37.36%;
+  right: 46.07%;
+  top: 31.59%;
+  bottom: 65.96%;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 12px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: 0.317647px;
+  color: #000000;
+}
+
+#rec10 {
+  position: absolute;
+  left: 42.69%;
+  right: 48.04%;
+  top: 41.7%;
+  bottom: 58.14%;
+  border: 3px solid #0f71d9;
+}
+
+#rec11 {
+  position: absolute;
+  left: 35.11%;
+  right: 40.46%;
+  top: 30.82%;
+  bottom: 59.68%;
+  border: 3px solid #0f71d9;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#bottom-container {
+  position: absolute;
+  left: 43.67%;
+  right: 48.88%;
+  top: 40.02%;
+  bottom: 58.14%;
+  background: #d6d6d6;
+}
+
+#bottom-rec1 {
+  position: absolute;
+  left: 47.47%;
+  right: 48.74%;
+  top: 40.02%;
+  bottom: 58.14%;
+  background: #67ddd1;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#bottom-rec2 {
+  position: absolute;
+  left: 47.33%;
+  right: 48.88%;
+  top: 40.02%;
+  bottom: 58.14%;
+  background: #67ddd1;
+}
+
+#shape-container {
+  position: absolute;
+  left: 49.99%;
+  right: 41.58%;
+  top: 34.5%;
+  bottom: 62.44%;
+}
+
+#shape-dot {
+  position: absolute;
+  left: 49.99%;
+  right: 49.83%;
+  top: 34.95%;
+  bottom: 64.95%;
+  border: 1px solid #0f71d9;
+}
+
+#rec13 {
+  position: absolute;
+  left: 51.48%;
+  right: 41.58%;
+  top: 36.34%;
+  bottom: 62.44%;
+  border: 1px solid #0f71d9;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+#shape-layer {
+  position: absolute;
+  left: 50.44%;
+  right: 42.79%;
+  top: 34.5%;
+  bottom: 62.54%;
+  border: 1px solid #0f71d9;
+}
+
+#shape1 {
+  position: absolute;
+  left: 55.05%;
+  right: 42.79%;
+  top: 34.5%;
+  bottom: 64.38%;
+  background: #dadada;
+}
+#shape2 {
+  position: absolute;
+  left: 52.69%;
+  right: 42.79%;
+  top: 35.62%;
+  bottom: 63.56%;
+  background: #dadada;
+}
+#shape3 {
+  position: absolute;
+  left: 50.61%;
+  right: 45.22%;
+  top: 36.85%;
+  bottom: 62.95%;
+  background: #dadada;
+}
+#shape4 {
+  position: absolute;
+  left: 50.44%;
+  right: 49.21%;
+  top: 36.34%;
+  bottom: 62.54%;
+  background: #dadada;
+}

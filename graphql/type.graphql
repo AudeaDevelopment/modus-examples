@@ -1,0 +1,36 @@
+type Query {
+  AllAdmins: [Admin]
+  AdminById(id: ID): Admin
+}
+
+type Mutations {
+  createEmail(input: AdminInput): Admin
+}
+
+type Admin {
+  id: ID
+  product_sales: String
+  shipping_sales: String
+  shop_credits: String
+  total_sales: String
+  product_cost: String
+  shipping_cost: String
+  total_cost: String
+  profit: String
+  orders_placed: String
+  items_sold: String
+}
+
+input AdminInput {
+  id: ID
+  product_sales: String
+  shipping_sales: String
+  shop_credits: String
+  total_sales: String
+  product_cost: String
+  shipping_cost: String
+  total_cost: String
+  profit: String
+  orders_placed: String
+  items_sold: String
+}
