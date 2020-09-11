@@ -21,7 +21,7 @@
     "amazon-cognito-identity-js": "^3.0.12",
     "aws-sdk": "^2.451.0",
     "dotenv": "^8.0.0",
-    "node-fetch": "^2.5.0",
+    "node-fetch": "^2.6.1",
     "parcel-bundler": "^1.12.3",
     "parcel-plugin-bundle-visualiser": "^1.2.0",
     "react": "^16.8.6",
